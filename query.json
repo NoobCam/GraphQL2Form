@@ -1,0 +1,9 @@
+{
+  "query": "\n    mutation changeEmail($input: ChangeEmailInput!) {\n        changeEmail(input: $input) {\n            email\n        }\n    }\n",
+  "operationName": "changeEmail",
+  "variables": {
+    "input": {
+      "email": "none1@sun.com"
+    }
+  }
+}
